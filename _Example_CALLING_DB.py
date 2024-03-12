@@ -7,7 +7,7 @@ from _DB_CONNECTOR import create_connection_sql_server, read_data_sql_server
 connection_sql_server = create_connection_sql_server()
 
 # read data
-query_sql_server = "SELECT * FROM personal"
+query_sql_server = "SELECT * FROM ____"
 df_sql_server = read_data_sql_server(connection_sql_server, query_sql_server)
 
 # close connection
